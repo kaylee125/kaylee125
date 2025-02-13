@@ -1,4 +1,4 @@
-# 👋 안녕하세요! 저는 이선희 입니다.  
+# 👋 안녕하세요! 이선희 입니다.  
 
 ### 🚀 소개  
 - 💻 IT 개발자 & 데이터 엔지니어  
@@ -34,8 +34,8 @@
 
 
 ### 📊 GitHub 통계  
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=your-github-username&show_icons=true&theme=radical)  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=your-github-username&layout=compact&theme=radical)  
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=kaylee125&show_icons=true&theme=radical)  
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kaylee125&layout=compact&theme=radical)  
 
 ### 🌱 최근 배우고 있는 것  
 - 🔹 Langchain
