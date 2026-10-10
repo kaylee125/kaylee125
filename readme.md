@@ -1,47 +1,41 @@
-# 👋 안녕하세요! 이선희 입니다.  
+# 이선희 | Data Engineer
 
-### 🚀 소개  
-- 💻 IT 개발자 & 데이터 엔지니어  
-- 🔍 데이터베이스 정규화, 데이터 엔지니어링, LLM,백엔드 개발에 관심이 많습니다.  
+데이터 수집부터 분석과 활용까지, 신뢰할 수 있는 데이터 플랫폼을 만드는 것에 관심이 많습니다.
 
+## About Me
 
-### 🛠️ 기술 스택  
-#### 📌 Programming Languages &Web Framework  
-![Python](https://img.shields.io/badge/Python-%233776AB.svg?style=flat&logo=python&logoColor=white)  
-![SQL](https://img.shields.io/badge/SQL-%23007ACC.svg?style=flat&logo=postgresql&logoColor=white)  
-![FastAPI](https://img.shields.io/badge/FastAPI-%23009999.svg?style=flat&logo=fastapi&logoColor=white)  
+4년 차 데이터 엔지니어로, 금융 자산 서비스와 SaaS 회사에서 자체 서비스의 데이터 플랫폼을 구축하고 운영해 왔습니다.
 
-#### 📌 Cloud & DevOps  
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat&logo=amazon-aws&logoColor=white)  
-![MWAA](https://img.shields.io/badge/MWAA-%23017CEE.svg?style=flat&logo=apache-airflow&logoColor=white)  
-![EMR](https://img.shields.io/badge/EMR-%23FF4F8C.svg?style=flat&logo=amazon-aws&logoColor=white)  
-![ECS Fargate](https://img.shields.io/badge/ECS%20Fargate-%2300599C.svg?style=flat&logo=amazon-ecs&logoColor=white)  
-![Docker](https://img.shields.io/badge/Docker-%232496ED.svg?style=flat&logo=docker&logoColor=white)  
+금융 서비스에서는 Spark와 Airflow 기반의 수집·정제·지표 산출 파이프라인을 구축했습니다. 
+현재는 SaaS 제품의 데이터 레이크, 웨어하우스, 마트를 재설계하며 분석 환경과 데이터 품질, 이벤트 거버넌스를 개선하고 있습니다.
 
-#### 📌 Database & Storage  
-![Aurora MySQL](https://img.shields.io/badge/Aurora%20MySQL-%23F29111.svg?style=flat&logo=amazon-aws&logoColor=white)  
-![MongoDB](https://img.shields.io/badge/MongoDB-%2347A248.svg?style=flat&logo=mongodb&logoColor=white)  
-![S3](https://img.shields.io/badge/Amazon%20S3-%23FF9900.svg?style=flat&logo=amazon-s3&logoColor=white)  
+업무에서는 쿼리 작성에 앞서 데이터가 어떤 의사결정에 쓰이는지, 지표의 정의와 집계 기준이 무엇인지부터 확인합니다. 
+파이프라인의 실행 성공뿐 아니라 데이터의 완전성·최신성·유일성을 검증하고, 운영 안정성과 비용 효율성을 함께 고려합니다.
 
-#### 📌 Big Data Processing  
-![Apache Spark](https://img.shields.io/badge/Apache%20Spark-%23E25A1C.svg?style=flat&logo=apache-spark&logoColor=white)  
-![Airflow](https://img.shields.io/badge/Apache%20Airflow-%23017CEE.svg?style=flat&logo=apache-airflow&logoColor=white)  
+## What I Work On
 
-#### 📌 CI/CD & Automation  
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-%232671E5.svg?style=flat&logo=github-actions&logoColor=white)  
-![Git Submodule](https://img.shields.io/badge/Git%20Submodule-%23F05032.svg?style=flat&logo=git&logoColor=white)  
+- **데이터 플랫폼 설계·운영**  
+  Airflow와 dbt 기반 ELT 파이프라인, 데이터 레이크·웨어하우스·마트 설계 및 운영
+
+- **지표 표준화와 분석 모델링**  
+  팀별로 다른 집계 기준을 공통 모델로 통합하고, 원천 데이터부터 BI까지 정합성 검증
+
+- **데이터 품질 관리**  
+  작업은 성공했지만 데이터가 누락되는 문제 탐지, 모델별 검증 기준 수립, 스키마 변경·최신성 모니터링
+
+- **이벤트 거버넌스**  
+  Git과 YAML 기반 이벤트 정의 관리, PR 검증 및 정의와 실제 수집 데이터 간 차이 감시
+
+- **AI 데이터 활용과 평가**  
+  MCP 기반 데이터 접근의 인증·권한·마스킹 설계, 골든셋과 자동 채점기를 활용한 응답 검증
 
 
-### 📊 GitHub 통계  
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=kaylee125&show_icons=true&theme=radical)  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kaylee125&layout=compact&theme=radical)  
+## Tech Stack
 
-### 🌱 최근 배우고 있는 것  
-- 🔹 Langchain
-- 🔹 AWS data engineering
-  
-
-### 📫 연락 방법  
-📧 이메일: lsh93011@gmail.com
-📝 기술 블로그: [Velog](https://velog.io/@leesh970930)  
-
+| 영역 | 기술 |
+| --- | --- |
+| 언어 | SQL, Python |
+| 데이터 처리·저장 | Spark, Amazon Redshift, S3, Glue, MySQL, PostgreSQL |
+| 모델링·오케스트레이션 | dbt Core, Airflow |
+| 인프라·배포 | AWS ECS·EKS, Docker, Kubernetes, Helm, Terraform, GitHub Actions |
+| 분석·AI | Lightdash, Amplitude, FastAPI, MCP, Claude Code |
